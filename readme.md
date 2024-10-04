@@ -106,8 +106,8 @@ Response Example :
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine:
 ```bash
-git clone <your-repo-url>
-cd <project-directory>
+git clone https://github.com/apurba-striker/tradingbot
+cd tradingbot
 ```
 
 ### Step 2: Install Dependencies
@@ -146,8 +146,8 @@ To start the trading bot, use the following endpoint:
 curl http://localhost:3000/api/trading/start
 ```
 ### Environment Variables
-`PORT`: The port on which the server runs (default is 3000).
-`STOCK_SYMBOL`: The stock symbol for the bot (currently for reference, can be used if extending the app to use real APIs).
-`INITIAL_BALANCE`: The initial balance for the bot to start trading with (default is $10,000).
-`STOCK_UPDATE_INTERVAL`: The interval (in milliseconds) at which stock prices are updated (default is 5000ms or 5 seconds).
-`STOCK_START_PRICE`: The initial stock price for the simulation (default is $100).
+-`PORT`: The port on which the server runs (default is 3000).
+-`STOCK_SYMBOL`: The stock symbol for the bot (currently for reference, can be used if extending the app to use real APIs).
+-`INITIAL_BALANCE`: The initial balance for the bot to start trading with (default is $10,000).
+-`STOCK_UPDATE_INTERVAL`: The interval (in milliseconds) at which stock prices are updated (default is 5000ms or 5 seconds).
+-`STOCK_START_PRICE`: The initial stock price for the simulation (default is $100).
